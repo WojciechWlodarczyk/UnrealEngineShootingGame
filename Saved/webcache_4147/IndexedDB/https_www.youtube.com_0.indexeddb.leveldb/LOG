@@ -1,0 +1,7 @@
+2022/02/27-20:49:30.775 4f1c Reusing MANIFEST E:/UnrealEngine/Unreal projects/MySeventhProject/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/27-20:49:30.775 4f1c Recovering log #3
+2022/02/27-20:49:30.776 4f1c Reusing old log E:/UnrealEngine/Unreal projects/MySeventhProject/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/02/27-22:25:00.539 4fe0 Level-0 table #5: started
+2022/02/27-22:25:00.540 4fe0 Level-0 table #5: 1200 bytes OK
+2022/02/27-22:25:00.542 4fe0 Delete type=0 #3
+2022/02/27-22:25:00.542 4fe0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,1464 @@
+{
+	"AssetInfoVersion": 2,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "2999643345C5DB8E4B990FC067EEAF6E75FC959E",
+			"Assets": [
+				"/Engine/EngineMaterials/BaseFlattenMaterial_VT",
+				"/Engine/EngineMaterials/BaseFlattenMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "8B5BB8DDA893BF4C557F4D98F38BE2BA736C29CB",
+			"Assets": [
+				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "9875E0D516869E1A1316AEF7568E5829BD778201",
+			"Assets": [
+				"/Engine/EngineMaterials/GizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "94CA63D602A29EBFCE03D77CCED136AC9F3992CF",
+			"Assets": [
+				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+			]
+		},
+		{
+			"ShaderMapHash": "A211C2305302ECCEA569544F8BFE817031ED2C63",
+			"Assets": [
+				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "170A679EAAC44828C89795704AF4A1221AC8D3E9",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "813F45DF7CE0F0CA00408D9AC89070BFA2D0F2DA",
+			"Assets": [
+				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "6A62D28913E7442EA7A5A3C94EC775637E85555B",
+			"Assets": [
+				"/OculusVR/Materials/OculusMR_OpaqueColoredMaterial",
+				"/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color"
+			]
+		},
+		{
+			"ShaderMapHash": "52EA8C3582452BA465B0BDE47CAC23806B335EA9",
+			"Assets": [
+				"/OculusVR/Materials/OculusMR_ChromaKey"
+			]
+		},
+		{
+			"ShaderMapHash": "BB0A8E5BCF9776AEED15B3F360DCB11149354E05",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
+			]
+		},
+		{
+			"ShaderMapHash": "600FA420F2E3D903D0137E0003D1F072754227C6",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "247680B120708B243543974BDC495A6A05330A57",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "A6EF1E70B07D9317007463DF10E7D7B78DD49897",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/WireframeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "8ABF688865F1B61B7D08AF2F5C339ED3BDC57FE9",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/VertexColorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7CAC82C93AB7DADFF7530A06CC5AD606D62EDC5D",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "89A8742C671CB982F827BE38C61DE0DE12EA265B",
+			"Assets": [
+				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A3864F224215B9454E3518E34777385FA3E5DC16",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "AACF318CF6DA7F3E8F22C27DE616D346692E8EEF",
+			"Assets": [
+				"/OculusVR/Materials/PokeAHoleMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "632935D8F2D7A1A080CD94B007DD68C8711200FB",
+			"Assets": [
+				"/HairStrands/Materials/HairMeshesDefaultMaterial",
+				"/HairStrands/Materials/HairDefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5BE4CA00DF1BB4D25826CC46691547DF5D9885A3",
+			"Assets": [
+				"/HairStrands/Materials/HairCardsDefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "05AFB3B048E3A0554537EDE1B1C73A1C004585C3",
+			"Assets": [
+				"/HairStrands/Materials/HairDebugMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5E273AD012C7253EFF9DD2FEA82A76A8267E5D5A",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
+			]
+		},
+		{
+			"ShaderMapHash": "4C52C4FC9C399FFF93437D855F006FD112832834",
+			"Assets": [
+				"/Engine/EditorMaterials/Camera/CineMat"
+			]
+		},
+		{
+			"ShaderMapHash": "6A2FC7D81D6860F419FB654D013A1288E9C9B728",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5A06EF93F2E25B45CFA16C0EEFB11E4E19FBBA3F",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "733BFD13EFD916BD067AD1401114AA7C8275757A",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "3D79D2042375912EC140480062702A127862B63D",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "8A82A91B3567A6EE29EA1A670258EEDBE8BDD01B",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "4A75448EBD97FEBCE61CBF591704949C1D631196",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "52C579D8291EDBD2270FD731F108D712BF7A7A86",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided",
+				"/Engine/EngineMaterials/Widget3DPassThrough"
+			]
+		},
+		{
+			"ShaderMapHash": "F80FB8F8308C8B5625190F3150823CDDD9C49A81",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "3DFBE1E1A03F8E1F6449C7CED144E4BAEC2EA957",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Xray"
+			]
+		},
+		{
+			"ShaderMapHash": "BB891F3714FA23AC5BC2428A098E17080D3357B8",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "1025A6DAAADB9BB68E25F1A2A315BD73645FFF60",
+			"Assets": [
+				"/Engine/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "F8853998FD27D266D6D3BA189739A4DEC508A7DF",
+			"Assets": [
+				"/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
+			]
+		},
+		{
+			"ShaderMapHash": "F9F2FC0D101F73CFA6963E79C45CEB9FE42B1166",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultPostProcessMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7D4E08CDB427B63E5B596A0F4F2860C034A166C9",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "568937DBA9359E0B81AFE41FEC7C29A76607302E",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultDeferredDecalMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B04DE1B7AE6862B0B2F0792B2F42ED4415E4F0C5",
+			"Assets": [
+				"/Engine/EngineMaterials/WorldGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "BDCC975A2D64C54AD04B6FBFF751040449C01804",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "12B425F9536CA0D30D7073D11CDD9F49865AA78C",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "A1AACBF0A4F57DF3FCBFFDA58ABFD97F3C036B3E",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Default_Material/M_MS_Default_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "4F876D4862AF14483870390170A84EE4F735D8B8",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Foliage_Material/M_MS_Foliage_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "A1EBE7DB51BA5505FA8D75F5991FA0FFB5C4D799",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Default_Fuzz_Material/M_MS_Default_Fuzz_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "12E534BD717286CD7D18FDEA2073984E8CD0D040",
+			"Assets": [
+				"/Game/Sketchap/grenade/textures/03",
+				"/Game/Sketchap/grenade/textures/hand",
+				"/Game/Sketchap/medicalkit/source/Aid_Kit"
+			]
+		},
+		{
+			"ShaderMapHash": "501A4F958A33601DEEAA87A346855CDD8ED400A2",
+			"Assets": [
+				"/Game/Sketchap/grenade/textures/main",
+				"/Game/Sketchap/grenade/textures/npo"
+			]
+		},
+		{
+			"ShaderMapHash": "D7462CCDE20FC9BA843DDE5E2E8AF6BD148321C1",
+			"Assets": [
+				"/Game/particle/NewLaser"
+			]
+		},
+		{
+			"ShaderMapHash": "6558610B9932BA8695D603F29265D405BFC038FF",
+			"Assets": [
+				"/Game/WeaponEffects/Explosion/M_Burst"
+			]
+		},
+		{
+			"ShaderMapHash": "86D9B927A0A693A075D0F9F45626746FA23A53EF",
+			"Assets": [
+				"/Game/WeaponEffects/Explosion/M_explosion_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "44CCA08D76402FD24D6DE801AB6FD3A8D3260974",
+			"Assets": [
+				"/Game/WeaponEffects/Explosion/m_flare_01"
+			]
+		},
+		{
+			"ShaderMapHash": "400685CD022E60F4292C2820BE8A4C0072196BBF",
+			"Assets": [
+				"/Game/WeaponEffects/Explosion/M_radial_ramp"
+			]
+		},
+		{
+			"ShaderMapHash": "841C42968DED3C9A98E1039C4A6D19A6B274F2F0",
+			"Assets": [
+				"/Game/WeaponEffects/Explosion/M_smoke_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "2033FD74F49191ADCEE36497A384154D4A549651",
+			"Assets": [
+				"/Game/Sketchap/wep/Case",
+				"/Game/Sketchap/wep/Inside"
+			]
+		},
+		{
+			"ShaderMapHash": "99927D31AD123B0B76A6A74D5B0200E04EB1BEE8",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/00_rp_master/Materials/RP_Rigged_MasterMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7D3A4423D63ACA0139C4ABEA6D79F1943CAEEE05",
+			"Assets": [
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Rifle",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin1_Hands",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin1_Outfit",
+				"/Game/Male_soldier/Material/MaT_Male_soldier_Skin1_Pants",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin1_Torso",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin2_Hands",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin2_Outfit",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin2_Pants",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin2_Torso",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin3_Hands",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin3_Outfit",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin3_Pants",
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Skin3_Torso"
+			]
+		},
+		{
+			"ShaderMapHash": "0D07EFB9D135E5AA5C9AD2A88C5B7CE45361F822",
+			"Assets": [
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Eyes",
+				"/Game/turbosquid/char1/Std_Eye_L",
+				"/Game/turbosquid/char1/Std_Eye_R",
+				"/Game/turbosquid/char1/Std_Lower_Teeth",
+				"/Game/turbosquid/char1/Std_Nails",
+				"/Game/turbosquid/char1/Std_Skin_Arm",
+				"/Game/turbosquid/char1/Std_Skin_Body",
+				"/Game/turbosquid/char1/Std_Skin_Head",
+				"/Game/turbosquid/char1/Std_Skin_Leg",
+				"/Game/turbosquid/char1/Std_Tongue",
+				"/Game/turbosquid/char1/Std_Upper_Teeth"
+			]
+		},
+		{
+			"ShaderMapHash": "957B00CE07B454DB002ECB933E0B122A1CC4023F",
+			"Assets": [
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Head"
+			]
+		},
+		{
+			"ShaderMapHash": "57BE7FE954AEDFE5C23DBB0684BC801EF4FBEE10",
+			"Assets": [
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Lashes"
+			]
+		},
+		{
+			"ShaderMapHash": "3E5D3CE6ACB457E8F2A49B5FA33A39DCA54897DC",
+			"Assets": [
+				"/Game/Male_soldier/Material/Mat_Male_soldier_Refl"
+			]
+		},
+		{
+			"ShaderMapHash": "6C852A9D8BBD766E25E19B1108211C02BC40CBF6",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "29E2AD8FA38948996F1389C3B6493447226BCC6E",
+			"Assets": [
+				"/Game/WaterPlane/Lake/Materials/M_LakeWater_01"
+			]
+		},
+		{
+			"ShaderMapHash": "636BED84081D2C99B8136F3CD01F399508BEF2A5",
+			"Assets": [
+				"/Game/WaterPlane/Ocean/Materials/M_OceanWater_1"
+			]
+		},
+		{
+			"ShaderMapHash": "AAFDC3D34DD68DB99CFC6F8237BD0345858D8CA6",
+			"Assets": [
+				"/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "D29E2508BB0A7EAE0AA55715D227C95A795C81B4",
+			"Assets": [
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "C48161ECD5F09A178699A1CBA6946801BD665F43",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "4EC5F3CC34EED7C0FDD5F7A99E80E23742221E46",
+			"Assets": [
+				"/Game/WaterPlane/Translucent/Materials/M_TranslucentWater"
+			]
+		},
+		{
+			"ShaderMapHash": "E3EC4ED94977C6866DA889362563A54DB7F478E9",
+			"Assets": [
+				"/Game/WaterPlane/Environment/Props/Materials/M_Rock"
+			]
+		},
+		{
+			"ShaderMapHash": "66E30BB191CD5C44DA0539CB033617AEE7EBD380",
+			"Assets": [
+				"/Game/WaterPlane/Environment/Materials/M_Rock_Basalt"
+			]
+		},
+		{
+			"ShaderMapHash": "5696D259EC3EB3FFB63C9FCF8BF3767CF4A4591D",
+			"Assets": [
+				"/Game/Scenes/rocksMap",
+				"/Game/Scenes/rocksMapv2",
+				"/Game/Scenes/island",
+				"/Game/FirstMap"
+			]
+		},
+		{
+			"ShaderMapHash": "6A8001426DBE1FABFCC3AC5EAB4D26413AF889CE",
+			"Assets": [
+				"/Game/MSPresets/MS_Foliage_Material/MasterMaterials/MA_Foliage"
+			]
+		},
+		{
+			"ShaderMapHash": "1E566BD870112E8C9E8F04F95F2692A5482FD8FC",
+			"Assets": [
+				"/Game/MSPresets/MS_Foliage_Material/MasterMaterials/MA_Foliage"
+			]
+		},
+		{
+			"ShaderMapHash": "81497032F09F7D534DA3B3742601CABDB5492061",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MAI_BlackAlder_Field_04",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MAI_BlackAlder_Forest_03",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MAI_BlackAlder_Forest_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MAI_BlackAlder_Field_05",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MAI_BlackAlder_Field_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MAI_BlackAlder_Forest_04",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MAI_BlackAlder_Field_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MAI_BlackAlder_Forest_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MAI_BlackAlder_Field_03"
+			]
+		},
+		{
+			"ShaderMapHash": "3EEEAFF609C2F360A47697C47ED4DABCF38C51A7",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MAI_BlackAlder_Field_04",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MAI_BlackAlder_Forest_03",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MAI_BlackAlder_Forest_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MAI_BlackAlder_Field_05",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MAI_BlackAlder_Field_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MAI_BlackAlder_Forest_04",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MAI_BlackAlder_Field_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MAI_BlackAlder_Forest_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MAI_BlackAlder_Field_03"
+			]
+		},
+		{
+			"ShaderMapHash": "D8EDB393B10C9B3CBC1AE8FAF57F431506E57115",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Trunk",
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Trunk_01",
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Trunk_02"
+			]
+		},
+		{
+			"ShaderMapHash": "FAE342F1C5A7CE72EFA1435C835D2A4007E49E88",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Trunk",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Trunk",
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Trunk_01",
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Trunk_02"
+			]
+		},
+		{
+			"ShaderMapHash": "283C877B826F8089EDFEDF17DF1716D67BEC5DF7",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "454B080F72E1C8405DB90961F5913EB3C0543FA4",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "720F80087E728832D965524A59C56C46299A5285",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "B9C04BB6934E27E06B972FDDF08814C0C6979630",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "2BE69EEDBBDB717DE00D8D45E9BBFF393EEB8ADA",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "8D31B70DD3683605D2FB2E24E3A80AA1C178FD60",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_04/MI_BlackAlder_Field_04_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_03/MI_BlackAlder_Forest_03_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_01/MI_BlackAlder_Forest_01_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_05/MI_BlackAlder_Field_05_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_02/MI_BlackAlder_Field_02_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_04/MI_BlackAlder_Forest_04_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_01/MI_BlackAlder_Field_01_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_02/MI_BlackAlder_Forest_02_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Field/Field_03/MI_BlackAlder_Field_03_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "76D4201C40C29CBAA1619B8EA4D3B30F65A720DA",
+			"Assets": [
+				"/Game/MSPresets/MS_Foliage_Material/MasterMaterials/MA_Impostor"
+			]
+		},
+		{
+			"ShaderMapHash": "C29984D695B72D4EAFAF02F599768ED7B39F2675",
+			"Assets": [
+				"/Game/BlackAlder/Materials/Impostor/MAI_Impostor_BlackAlder",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Field_04",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_03",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_01",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_06",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Field_05",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Field_02",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_04",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Field_01",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_02",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Forest_05",
+				"/Game/BlackAlder/Materials/Impostor/MI_Impostor_Field_03"
+			]
+		},
+		{
+			"ShaderMapHash": "30C94DAA91FB32B7DEBC31787F2C54E34AFCFF3E",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_nathan_rigged_003_Mobile_ue4/Materials/rp_nathan_rigged_003_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_carla_rigged_001_Mobile_ue4/Materials/rp_carla_rigged_001_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_eric_rigged_001_Mobile_ue4/Materials/rp_eric_rigged_001_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_sophia_rigged_003_Mobile_ue4/Materials/rp_sophia_rigged_003_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_claudia_rigged_002_Mobile_ue4/Materials/rp_claudia_rigged_002_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_dennis_posed_004_Mobile_ue4/Materials/rp_dennis_posed_004_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_fabienne_percy_posed_001_Mobile_ue4/Materials/rp_fabienne_percy_posed_001_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_mei_posed_001_Mobile_ue4/Materials/rp_mei_posed_001_Mobile_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_dennis_posed_004_ue4/Materials/rp_dennis_posed_004_mat",
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_manuel_rigged_001_Mobile_ue4/Materials/rp_manuel_rigged_001_Mobile_mat"
+			]
+		},
+		{
+			"ShaderMapHash": "C44189A29C5BAEE96C3F6E0A79257EE5FDA20E6A",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/rp_eric_rigged_001_ue4/Materials/rp_eric_rigged_001_mat"
+			]
+		},
+		{
+			"ShaderMapHash": "9375A99A267779450AAD74E83F8541907D0939A4",
+			"Assets": [
+				"/Game/Man/Materials/M_Man_Cloth_Down_01",
+				"/Game/Man/Materials/M_Man_Cloth_Up_01",
+				"/Game/Man/Materials/M_MAn_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "304A922F18A46298827D1623302CA157996AE9AB",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MAI_BlackAlder_Forest_06",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MAI_BlackAlder_Forest_07",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MAI_BlackAlder_Forest_08",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MAI_BlackAlder_Forest_09"
+			]
+		},
+		{
+			"ShaderMapHash": "D7364FFEE35C96D06E2208620556255C3AFFF4C1",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MAI_BlackAlder_Forest_06",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MAI_BlackAlder_Forest_07",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MAI_BlackAlder_Forest_08",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MAI_BlackAlder_Forest_09"
+			]
+		},
+		{
+			"ShaderMapHash": "D4B343FD5F25706DAC68F4A36809A7D6DB93FF5E",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MI_BlackAlder_Forest_09_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "AF2AB18FAD3CD03D3B92F5252AAA26BC56726E19",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_TwoSided",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MI_BlackAlder_Forest_09_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "FDE1AE25D64F2027ACC8E7865974DDB677BEB7A1",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MI_BlackAlder_Forest_09_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "2160DAA18AEFED48E9FF3AD14D4855D330A1EE2D",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_Tileable",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_09/MI_BlackAlder_Forest_09_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "CB4C0493F8F53150E926D4674D99D005C7A397B7",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "6D16489ED299363E3B0A87FF9E5F2EC999991553",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_06/MI_BlackAlder_Forest_06_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_07/MI_BlackAlder_Forest_07_Decoration",
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_08/MI_BlackAlder_Forest_08_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "35464CC875A5B41479C90BC46157B3A262C4EF60",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_06"
+			]
+		},
+		{
+			"ShaderMapHash": "3A5D8795B5EB808FBFF0829B4F16021DF01E05B2",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_06"
+			]
+		},
+		{
+			"ShaderMapHash": "6420F12544A6E5E4F1CF2B54A5E855519BAA7767",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MAI_BlackAlder_Forest_05"
+			]
+		},
+		{
+			"ShaderMapHash": "37F1920D8BEBDDB2302E22D223CB4F59A5C165F2",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MAI_BlackAlder_Forest_05"
+			]
+		},
+		{
+			"ShaderMapHash": "48CB4219DB8732EF9909167E163E86A853BBF255",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "92075258700B6847B7E7D1B42F954AF2C92A9837",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "F230D3DFCA6F83B16CFB6396DF70BEB7FF277E16",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "DBD98585C4C0331C090BC9D9CC023A273E3B611E",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "90D81B854147FE8DBBCAB91E457035C1AE586625",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "6E846919FE7823CB79D60EF1F8282345BB1C08DF",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Forest/Forest_05/MI_BlackAlder_Forest_05_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "D1F8EBA3FD955BBC26ECA428B290E64EB231E948",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "11A9E9F21BA3DA7A8DC3414B0E6346371401F7D3",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Decoration"
+			]
+		},
+		{
+			"ShaderMapHash": "CA42FA1293723AD68609957ED5215DD05B8F9D61",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "3D11CBFB6D25300112752C5B2FF151B8082981D5",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Tileable"
+			]
+		},
+		{
+			"ShaderMapHash": "B27A5302E521A2B32478425626E2B5FD7E28887B",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "AD46BB184CB76D9D92A68C2519D26C91A288997E",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "A9BECE8727A54080E877B9468AC0567DA3C09259",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Sapling_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "86FE4A8F1BC17F0D304841B1832592756B2A8AE6",
+			"Assets": [
+				"/Game/BlackAlder/Materials/SimpleWind/MI_BlackAlder_Sapling_TwoSided"
+			]
+		},
+		{
+			"ShaderMapHash": "DD01A7036E8FD296946F389411F747A92D774A86",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "F09DF79F61C69B1E4151C108A0C0A0C8EDE32320",
+			"Assets": [
+				"/Game/MSPresets/MS_Foliage_Material/GlobalFoliageActor/Materials/MA_UI_Element"
+			]
+		},
+		{
+			"ShaderMapHash": "02133826EA2DDFB645305078E3091CE701AE8806",
+			"Assets": [
+				"/Engine/EngineSky/M_SkyTimeOfDay"
+			]
+		},
+		{
+			"ShaderMapHash": "E1D1D14C3566954D15D4FC6F7CE391FFB1A40159",
+			"Assets": [
+				"/Game/BlackAlder/Materials/Background/M_FloorGrid_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "552087C9C6896699289A2C3486FC01D6271909E3",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Seedling/MI_BlackAlder_Seedling_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Seedling/MI_BlackAlder_Seedling_02"
+			]
+		},
+		{
+			"ShaderMapHash": "8628127E3D8BA4E0826F486907954E40A21F46B5",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Seedling/MI_BlackAlder_Seedling_01",
+				"/Game/BlackAlder/Materials/PivotPainter/Seedling/MI_BlackAlder_Seedling_02"
+			]
+		},
+		{
+			"ShaderMapHash": "1D18E0D7062A2731CB597891BAAA264C32A94D5B",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_03",
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_05"
+			]
+		},
+		{
+			"ShaderMapHash": "C2AAF87FDEA3E9E8C79052996B6873015A49123A",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_02",
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_03",
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_05"
+			]
+		},
+		{
+			"ShaderMapHash": "23552EA4FFF8A62427CB583EDFCF6F00EB89D77F",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_04"
+			]
+		},
+		{
+			"ShaderMapHash": "62F12815FFF4A4BEABB264B92B0F2CEBA8C9F7B7",
+			"Assets": [
+				"/Game/BlackAlder/Materials/PivotPainter/Sapling/MI_BlackAlder_Sapling_04"
+			]
+		},
+		{
+			"ShaderMapHash": "F0938C0830D95ACBD9BCE4027ACE5CD42C7FBAEF",
+			"Assets": [
+				"/Game/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "7D435D48D87E969AFD6933582F56AF838FB9469F",
+			"Assets": [
+				"/Game/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo"
+			]
+		},
+		{
+			"ShaderMapHash": "D55EE6B1683573A52516C9087F652EC0EB710CA9",
+			"Assets": [
+				"/Engine/TemplateResources/M_Template_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "5D341B06637C3C5DC9F4080360D71520A1A508C5",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_WolfArctic",
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_Wolf",
+				"/Game/AnimalVarietyPack/Pig/Materials/M_PigDirty",
+				"/Game/AnimalVarietyPack/Fox/Materials/M_Fox",
+				"/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStag",
+				"/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoe"
+			]
+		},
+		{
+			"ShaderMapHash": "F68826327BB06DC21B9BA00879BC73CF32631FAB",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_WolfDark"
+			]
+		},
+		{
+			"ShaderMapHash": "B1A08CDBA3EC3AADFDEF7EC522474FF2D6476D9A",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFurArctic",
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFurDark",
+				"/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFur",
+				"/Game/AnimalVarietyPack/Crow/Materials/M_Crow"
+			]
+		},
+		{
+			"ShaderMapHash": "06F9D3649B5413373B24BDCB9BEB13FB36E635B5",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Pig/Materials/M_PigHair"
+			]
+		},
+		{
+			"ShaderMapHash": "C2A2C25ADE65AEB14C627422CBB5F06D4CA689FF",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Pig/Materials/M_Pig"
+			]
+		},
+		{
+			"ShaderMapHash": "07DCAA757DC9C4F88C941D5E4A4BDE51E720521A",
+			"Assets": [
+				"/Game/AnimalVarietyPack/Pig/Materials/M_PigHairDirty",
+				"/Game/AnimalVarietyPack/Fox/Materials/M_FoxFur",
+				"/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStagFur",
+				"/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoeFur"
+			]
+		},
+		{
+			"ShaderMapHash": "ADBEC3CF7E84532BBE38A7E101DF95AF5DF5E7B0",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Billboard_Material/M_MS_Billboard_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "0F6386D5A2C0AE9C8ADD7A762B0045C982467063",
+			"Assets": [
+				"/Game/Sketchap/terrain/diffuse_1SG"
+			]
+		},
+		{
+			"ShaderMapHash": "718866DDC8DD16EDB658BD883DFB902F007CA7CD",
+			"Assets": [
+				"/Game/Sketchap/boat/source/boat"
+			]
+		},
+		{
+			"ShaderMapHash": "C7400FCF26EC798EE576E21606C3CF38B7CAF7A1",
+			"Assets": [
+				"/Game/WeaponEffects/ShellEject/M_ShellEjectMetal"
+			]
+		},
+		{
+			"ShaderMapHash": "CCBD99EC0E34B8253B8B85191B7F62521903C800",
+			"Assets": [
+				"/Game/WeaponEffects/Muzzle/MuzzleFlash_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "945502B7057B6F455135EEDB8EB4D8ABDD16738B",
+			"Assets": [
+				"/Game/WeaponEffects/GenericImpact/M_LensFlare_02"
+			]
+		},
+		{
+			"ShaderMapHash": "3A70CF7482966941916396BAE63C05284A1E8EF9",
+			"Assets": [
+				"/Game/WeaponEffects/GenericImpact/M_spark_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "0D5B4A789FBC8C2A74D00131851B9266D4DFC795",
+			"Assets": [
+				"/Game/WeaponEffects/BloodImpact/M_blood_cloud_01"
+			]
+		},
+		{
+			"ShaderMapHash": "EE1C6E36EE734637434071D6A4EBA73D9EC3BEC4",
+			"Assets": [
+				"/Game/WeaponEffects/BloodImpact/M_blood_splash_01"
+			]
+		},
+		{
+			"ShaderMapHash": "8D746412167327DAB091345BA91E3A90EB65945C",
+			"Assets": [
+				"/Game/WeaponEffects/BloodImpact/M_blood_splash_03"
+			]
+		},
+		{
+			"ShaderMapHash": "81E128C6C3991D2FF83AC7911EB46B731838C818",
+			"Assets": [
+				"/Game/WeaponEffects/BasicTracer/M_Beam"
+			]
+		},
+		{
+			"ShaderMapHash": "1A350AB1DBB1066AA9FFB223B1319B8F3D226C65",
+			"Assets": [
+				"/Game/WaterPlane/Ocean/Materials/FakedCaustics"
+			]
+		},
+		{
+			"ShaderMapHash": "C96F9D59FDC2207655050D3B49723EA5AC8E8F0C",
+			"Assets": [
+				"/Game/unityAssetStore/MotusMan/M4/M4_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "C87F1C01473DD6C0D4E4518445DB9409F237B35E",
+			"Assets": [
+				"/Game/unityAssetStore/MotusMan/1911/Colt"
+			]
+		},
+		{
+			"ShaderMapHash": "8DDE15442C2825CB5EA127B758DC596CD6BEAAEA",
+			"Assets": [
+				"/Game/unityAssetStore/MotusMan/MotusMan_Phong1"
+			]
+		},
+		{
+			"ShaderMapHash": "705F0E8DC3123FCB40B03796466EA8911647E174",
+			"Assets": [
+				"/Game/unityAssetStore/anim/Loops/MotusMan_Phong1",
+				"/Game/unityAssetStore/anim/MotusMan_Phong1",
+				"/Game/turbosquid/char4/Sword_mtl",
+				"/Game/turbosquid/char4/Armour_mtl",
+				"/Game/turbosquid/char4/Cloth_mtl",
+				"/Game/turbosquid/char4/Hair_mtl",
+				"/Game/turbosquid/char4/Head_mtl"
+			]
+		},
+		{
+			"ShaderMapHash": "4C3B8FEA814D34B4861A6E3CA575A45B6CA9C1CE",
+			"Assets": [
+				"/Game/turbosquid/char3/Material__48"
+			]
+		},
+		{
+			"ShaderMapHash": "60ACC2E26400C70E33561DE4248858C39189A2F7",
+			"Assets": [
+				"/Game/turbosquid/char1/Beard_Transparency",
+				"/Game/turbosquid/char1/Beard_Transparency_ncl1_1",
+				"/Game/turbosquid/char1/Beard_Transparency_ncl1_2",
+				"/Game/turbosquid/char1/Hair_Transparency",
+				"/Game/turbosquid/char1/Male_Bushy_Base_Transparency",
+				"/Game/turbosquid/char1/Male_Bushy_Transparency",
+				"/Game/turbosquid/char1/Scalp_Transparency",
+				"/Game/turbosquid/char1/Std_Eyelash",
+				"/Game/turbosquid/char1/Std_Tearline_L",
+				"/Game/turbosquid/char1/Std_Tearline_R"
+			]
+		},
+		{
+			"ShaderMapHash": "A711DF8D3437477B4118BD60BCD5775DC1187154",
+			"Assets": [
+				"/Game/turbosquid/char1/metallic",
+				"/Game/turbosquid/char1/metallic_ncl1_1",
+				"/Game/turbosquid/char1/metallic_ncl1_2",
+				"/Game/turbosquid/char1/metallic_ncl1_3",
+				"/Game/turbosquid/char1/metallic_ncl1_4",
+				"/Game/turbosquid/char1/New_Material__3_",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_1",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_10",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_11",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_2",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_3",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_4",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_5",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_6",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_7",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_8",
+				"/Game/turbosquid/char1/New_Material__3__ncl1_9",
+				"/Game/turbosquid/char1/Std_Cornea_L",
+				"/Game/turbosquid/char1/Std_Cornea_R",
+				"/Game/Sketchap/soldier/eyes",
+				"/Game/Sketchap/boy/human_Eyelashes01",
+				"/Game/Sketchap/boy/human_HighPolyEyes",
+				"/Game/Sketchap/boy/human_short04",
+				"/Game/Sketchap/boy/human_Teeth_Base"
+			]
+		},
+		{
+			"ShaderMapHash": "D400CFFF03BCE7C81E1B56727D2C9FB07E2A32E7",
+			"Assets": [
+				"/Game/turbosquid/char1/Std_Eye_Occlusion_L",
+				"/Game/turbosquid/char1/Std_Eye_Occlusion_R"
+			]
+		},
+		{
+			"ShaderMapHash": "9D77C3117096C977E751037B09EA763CA1B69D9A",
+			"Assets": [
+				"/Game/Sketchap/soldier/uniform",
+				"/Game/Sketchap/soldier/night_vis_goggles",
+				"/Game/Sketchap/soldier/mask",
+				"/Game/Sketchap/soldier/helmet",
+				"/Game/Sketchap/soldier/gloves",
+				"/Game/Sketchap/soldier/boots",
+				"/Game/Sketchap/soldier/face",
+				"/Game/Sketchap/boy/human_body",
+				"/Game/Sketchap/boy/human_M_Suit_01",
+				"/Game/Sketchap/boy/human_Shoes_Oxford_male"
+			]
+		},
+		{
+			"ShaderMapHash": "6F37C3F960CA2CE6B112B3C9DBB51A1C64F70B46",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/00_rp_master/Mannequin/Materials/M_UE4Man_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "D994C67EBC182C68C465E5A6A1A3A6F5DDBDAA99",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/00_rp_master/Mannequin/Materials/M_UE4Man_ChestLogo_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "C47B15E7BCE99148BE076672AFC67222C4B9E4F0",
+			"Assets": [
+				"/Game/Scanned3DPeoplePack/RP_Character/00_rp_master/Mannequin/Materials/M_UE4Man_ChestLogo"
+			]
+		},
+		{
+			"ShaderMapHash": "E51C4E874452E125D7EE4F5154ED91BDE64DBF88",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_ThrowingAxe"
+			]
+		},
+		{
+			"ShaderMapHash": "6F6E283F0714F5A387670EB5C01E01D42A681833",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Whirlwind_Rings"
+			]
+		},
+		{
+			"ShaderMapHash": "AE9BD3568618D122287A2F69C0F57C9D93B12B70",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Swipe"
+			]
+		},
+		{
+			"ShaderMapHash": "DA35C7A92BE62A33380ECAC190A6904F417CB911",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Whirlwind"
+			]
+		},
+		{
+			"ShaderMapHash": "7FE68073A7B473FDAA2886560D1AAC486FF6DED4",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Shout"
+			]
+		},
+		{
+			"ShaderMapHash": "0BEC35144230A6ED85F0B13AA963DBCBA99F930D",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Sparks"
+			]
+		},
+		{
+			"ShaderMapHash": "AD4B8F9F001BBA5AAD8BD0E7BC415CF9CCD5B0D6",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Ring"
+			]
+		},
+		{
+			"ShaderMapHash": "8C2E4D34A11F0B827325AD251DE78057C7824922",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Impact_Lines"
+			]
+		},
+		{
+			"ShaderMapHash": "7563042DE8AAD38E8054286AD6814FA901A12873",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Impact_Star"
+			]
+		},
+		{
+			"ShaderMapHash": "CBCB8676781EC45113400DED9612A85079C7F07C",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Earth_Slam"
+			]
+		},
+		{
+			"ShaderMapHash": "D88B8DD4C93D632C6FCAFA70CDCD2772B7E0E7CC",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Earth_Crack"
+			]
+		},
+		{
+			"ShaderMapHash": "3E76C2745BAFF4C083D272D2FF74679677B06108",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Stones"
+			]
+		},
+		{
+			"ShaderMapHash": "493121E612728A7E728A46E49ECAAA475D3F8834",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Decal"
+			]
+		},
+		{
+			"ShaderMapHash": "30BF2DCE4A78385AD8AE626EDC8B1E1A41D67E49",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Targeting_Circle"
+			]
+		},
+		{
+			"ShaderMapHash": "D3678B3BE54B759D89DCD6B02DB9F8CDA4393D8C",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Targeting_Arrow"
+			]
+		},
+		{
+			"ShaderMapHash": "FE96C2ED385DC27237924041029B970943F2BA1B",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Targeting_Arc"
+			]
+		},
+		{
+			"ShaderMapHash": "F7BEAD71472B18CFD8D4E5C441C482236DA8467C",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Portal"
+			]
+		},
+		{
+			"ShaderMapHash": "CD690C6188697D0CD5D1BCF947F94862EC5522EF",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_StarAnim",
+				"/Game/RPGEffects/Materials/M_HealingCross_2D"
+			]
+		},
+		{
+			"ShaderMapHash": "4F3D6EB0C554C02535BDA894490E89DB45182E3B",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Portal_Edge"
+			]
+		},
+		{
+			"ShaderMapHash": "DDF38DE7B88620D4807205058C7462B9B945560A",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "784F8E24F38CEA65A7C39475875107A1F09210CF",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Glow_Dot"
+			]
+		},
+		{
+			"ShaderMapHash": "A1E7A8909D288A3BBB47545498A11C75EECFEC9E",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_HealingCross_3D"
+			]
+		},
+		{
+			"ShaderMapHash": "6EA09D55FF12215673BD6C1AFA3084087627AC35",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_SpiralMesh"
+			]
+		},
+		{
+			"ShaderMapHash": "38E0DACD1D94A1FB1C4D8E99EF583604A3A25C53",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Spiral"
+			]
+		},
+		{
+			"ShaderMapHash": "18B56795CB1CD505EE21220696B7295CFAD58CB5",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Heal_Sphere"
+			]
+		},
+		{
+			"ShaderMapHash": "6B89BB726A7502321A2D687BE73BD3411E35733B",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Energy_Sphere"
+			]
+		},
+		{
+			"ShaderMapHash": "783A66BF3C2EED8216659CE5E05C79CA7220A67D",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Lightning_Zaps"
+			]
+		},
+		{
+			"ShaderMapHash": "769D00E5EB3F79C18B9BCD32B4A84E3B1567069B",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Glow"
+			]
+		},
+		{
+			"ShaderMapHash": "436E787D4CC99B4109325C4E07B6A86421C8D728",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_LightningScroll"
+			]
+		},
+		{
+			"ShaderMapHash": "74A0274CF3B2F52F8844DA22454E26369273FECC",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Fire_Burst"
+			]
+		},
+		{
+			"ShaderMapHash": "8CB862859E4FD59341BB33B6FBA4A4D627994F5A",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Fire_Mesh"
+			]
+		},
+		{
+			"ShaderMapHash": "D7944970CB297DB87E1A85896D6E9100A7C4DFB5",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Arrow_Feather"
+			]
+		},
+		{
+			"ShaderMapHash": "258173168469766E333B8009A221F5DFF833FB2A",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Arrow_Trail"
+			]
+		},
+		{
+			"ShaderMapHash": "6FE3B470C8FE8C2D108C79FA5A5161B0ED4B5AA4",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Arrow"
+			]
+		},
+		{
+			"ShaderMapHash": "B8559572BBDB39142337A9492408AD1FACD31466",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Caltrops_Spike"
+			]
+		},
+		{
+			"ShaderMapHash": "9D2CEDAEB91D2D9922A428AFC75EA7ECC1996EA7",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Caltrops"
+			]
+		},
+		{
+			"ShaderMapHash": "690A87BDEC4D152637ED46DAE5997CF296615F2F",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Arrow_ImpactShadow"
+			]
+		},
+		{
+			"ShaderMapHash": "116DBE25CB11540C19976F53AC3B8D316027710F",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_EnergyBeam"
+			]
+		},
+		{
+			"ShaderMapHash": "FC65D71964D9307F865B4D048DD3211370D85F01",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Fire_Base"
+			]
+		},
+		{
+			"ShaderMapHash": "CB220AF8D80E7384EF80474DF34583E5E4AA4368",
+			"Assets": [
+				"/Game/RPGEffects/Materials/M_Colour"
+			]
+		},
+		{
+			"ShaderMapHash": "B55C85D8C3607F6094ED8986A502A2A54ABE2BCE",
+			"Assets": [
+				"/Game/MSPresets/M_MS_SurfaceBlend_Material/M_MS_SurfaceBlend_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "F40CC772141E3387B355EABA59CA01E4C4612092",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Imperfection_Material_Var/M_MS_Imperfection_Material_Var",
+				"/Game/MSPresets/M_MS_Imperfection_Material/M_MS_Imperfection_Material_Var"
+			]
+		},
+		{
+			"ShaderMapHash": "94E62ABC786B5F99CF216C398478ABCC1D42FA6E",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Imperfection_Material/M_MS_Imperfection_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "1CF904D7A9FB094B421EECDAC51DC33ED173F392",
+			"Assets": [
+				"/Game/MSPresets/M_MS_ImperfectionDecal_Material/M_MS_ImperfectionDecal_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "0C62309BC8F278293A291A4BA08AC634FB9A7286",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Default_Transmission_Material/M_MS_Default_Transmission_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "341363613E1B4926DD0C96CE6D62D293B016DF65",
+			"Assets": [
+				"/Game/MSPresets/M_MS_Decal_Material/M_MS_Decal_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "2632B924F0BA70BBC5481CDE49D56DC960EBFF96",
+			"Assets": [
+				"/Game/mixamo/Guard_02"
+			]
+		},
+		{
+			"ShaderMapHash": "3A9CA33786360514FBE9E205F7F86132E1B9E1FE",
+			"Assets": [
+				"/Game/Man/Materials/M_Man_Cloth_Up_03",
+				"/Game/Man/Materials/M_Man_Cloth_Up_02",
+				"/Game/Man/Materials/M_Man_Cloth_Down_03",
+				"/Game/Man/Materials/M_Man_Cloth_Down_02"
+			]
+		},
+		{
+			"ShaderMapHash": "B0E46706771C1CAC5239BFE181FBFD805B57CF5D",
+			"Assets": [
+				"/Game/Man/laser"
+			]
+		},
+		{
+			"ShaderMapHash": "D8C37861970ED1D9BDC54A0CC00FB062FE5C2635",
+			"Assets": [
+				"/Game/MyTerrainMat"
+			]
+		},
+		{
+			"ShaderMapHash": "FC03903372261C8D44D1E569C3E53A623DD0BA7B",
+			"Assets": [
+				"/Game/WaterPlane/Maps/TranslucentWater_Example"
+			]
+		}
+	]
+}
