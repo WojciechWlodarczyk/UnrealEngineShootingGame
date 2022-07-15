@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MySeventhProject",
+			"Path": "E:\\UnrealEngine\\Unreal projects\\MySeventhProject 5.0\\Source\\MySeventhProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MySeventhProjectEditor",
+			"Path": "E:\\UnrealEngine\\Unreal projects\\MySeventhProject 5.0\\Source\\MySeventhProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

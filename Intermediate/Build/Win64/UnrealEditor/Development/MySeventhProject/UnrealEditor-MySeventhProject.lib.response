@@ -1,0 +1,39 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MySeventhProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\MySeventhProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\AIBehaviour.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\EnemyManager.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\FightBehaviour.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\GoToCommandStationBehaviour.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\HealthComponent.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\IdleBehaviour.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MainGameInstance.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MedicalKit.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyAIEnemyCharacter.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyGrenade.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyPlayer.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MySeventhProject.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MySeventhProjectGameModeBase.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\NewBullet.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\PlayerWeapon.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\ThisGameInstance.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\EnemyManager.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\HealthComponent.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MainGameInstance.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MedicalKit.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyAIEnemyCharacter.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyGrenade.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MyPlayer.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MySeventhProject.init.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\MySeventhProjectGameModeBase.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\NewBullet.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\PlayerWeapon.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\ThisGameInstance.gen.cpp.obj"
+"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\Default.rc2.res"
+/OUT:"E:\UnrealEngine\Unreal projects\MySeventhProject 5.0\Intermediate\Build\Win64\UnrealEditor\Development\MySeventhProject\UnrealEditor-MySeventhProject.lib"

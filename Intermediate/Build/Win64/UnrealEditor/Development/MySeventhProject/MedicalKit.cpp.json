@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\source\\myseventhproject\\medicalkit.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\myseventhprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\myseventhproject\\definitions.myseventhproject.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\source\\myseventhproject\\medicalkit.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myseventhproject\\medicalkit.generated.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\spherecomponent.generated.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\source\\myseventhproject\\myseventhproject.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\source\\myseventhproject\\myplayer.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "c:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myseventhproject\\myplayer.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

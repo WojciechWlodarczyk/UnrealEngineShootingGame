@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myseventhproject\\mygrenade.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\myseventhprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\myseventhproject\\definitions.myseventhproject.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\source\\myseventhproject\\mygrenade.h",
+            "e:\\unrealengine\\unreal projects\\myseventhproject 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myseventhproject\\mygrenade.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
