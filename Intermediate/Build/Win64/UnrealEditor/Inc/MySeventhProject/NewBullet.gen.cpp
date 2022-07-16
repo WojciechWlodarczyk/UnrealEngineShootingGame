@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeNewBullet() {}
 	UPackage* Z_Construct_UPackage__Script_MySeventhProject();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
-	MYSEVENTHPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FBulletStruct();
+	MYSEVENTHPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FBulletStructX();
 // End Cross Module References
 	void ANewBullet::StaticRegisterNativesANewBullet()
 	{
@@ -159,20 +159,20 @@ void EmptyLinkFunctionForGeneratedCodeNewBullet() {}
 		return ANewBullet::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANewBullet);
-	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_BulletStruct;
-class UScriptStruct* FBulletStruct::StaticStruct()
+	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_BulletStructX;
+class UScriptStruct* FBulletStructX::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_BulletStruct.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_BulletStructX.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_BulletStruct.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FBulletStruct, Z_Construct_UPackage__Script_MySeventhProject(), TEXT("BulletStruct"));
+		Z_Registration_Info_UScriptStruct_BulletStructX.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FBulletStructX, Z_Construct_UPackage__Script_MySeventhProject(), TEXT("BulletStructX"));
 	}
-	return Z_Registration_Info_UScriptStruct_BulletStruct.OuterSingleton;
+	return Z_Registration_Info_UScriptStruct_BulletStructX.OuterSingleton;
 }
-template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<FBulletStruct>()
+template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<FBulletStructX>()
 {
-	return FBulletStruct::StaticStruct();
+	return FBulletStructX::StaticStruct();
 }
-	struct Z_Construct_UScriptStruct_FBulletStruct_Statics
+	struct Z_Construct_UScriptStruct_FBulletStructX_Statics
 	{
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
@@ -181,36 +181,34 @@ template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<FBulletStruct>()
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBulletStruct_Statics::Struct_MetaDataParams[] = {
-		{ "Comment", "//(BlueprintType)\n" },
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBulletStructX_Statics::Struct_MetaDataParams[] = {
 		{ "ModuleRelativePath", "NewBullet.h" },
-		{ "ToolTip", "(BlueprintType)" },
 	};
 #endif
-	void* Z_Construct_UScriptStruct_FBulletStruct_Statics::NewStructOps()
+	void* Z_Construct_UScriptStruct_FBulletStructX_Statics::NewStructOps()
 	{
-		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FBulletStruct>();
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FBulletStructX>();
 	}
-	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FBulletStruct_Statics::ReturnStructParams = {
+	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FBulletStructX_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_MySeventhProject,
 		nullptr,
 		&NewStructOps,
-		"BulletStruct",
-		sizeof(FBulletStruct),
-		alignof(FBulletStruct),
+		"BulletStructX",
+		sizeof(FBulletStructX),
+		alignof(FBulletStructX),
 		nullptr,
 		0,
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBulletStruct_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBulletStruct_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FBulletStructX_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBulletStructX_Statics::Struct_MetaDataParams))
 	};
-	UScriptStruct* Z_Construct_UScriptStruct_FBulletStruct()
+	UScriptStruct* Z_Construct_UScriptStruct_FBulletStructX()
 	{
-		if (!Z_Registration_Info_UScriptStruct_BulletStruct.InnerSingleton)
+		if (!Z_Registration_Info_UScriptStruct_BulletStructX.InnerSingleton)
 		{
-			UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_BulletStruct.InnerSingleton, Z_Construct_UScriptStruct_FBulletStruct_Statics::ReturnStructParams);
+			UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_BulletStructX.InnerSingleton, Z_Construct_UScriptStruct_FBulletStructX_Statics::ReturnStructParams);
 		}
-		return Z_Registration_Info_UScriptStruct_BulletStruct.InnerSingleton;
+		return Z_Registration_Info_UScriptStruct_BulletStructX.InnerSingleton;
 	}
 	struct Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics
 	{
@@ -218,12 +216,12 @@ template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<FBulletStruct>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ScriptStructInfo[] = {
-		{ FBulletStruct::StaticStruct, Z_Construct_UScriptStruct_FBulletStruct_Statics::NewStructOps, TEXT("BulletStruct"), &Z_Registration_Info_UScriptStruct_BulletStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FBulletStruct), 2149438693U) },
+		{ FBulletStructX::StaticStruct, Z_Construct_UScriptStruct_FBulletStructX_Statics::NewStructOps, TEXT("BulletStructX"), &Z_Registration_Info_UScriptStruct_BulletStructX, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FBulletStructX), 2331107816U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_ANewBullet, ANewBullet::StaticClass, TEXT("ANewBullet"), &Z_Registration_Info_UClass_ANewBullet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANewBullet), 3879416989U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_3944920441(TEXT("/Script/MySeventhProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_3237522770(TEXT("/Script/MySeventhProject"),
 		Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_Statics::ScriptStructInfo),
 		nullptr, 0);

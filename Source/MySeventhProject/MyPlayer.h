@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -9,7 +8,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class USkeletalMeshComponent;
-class APlayerWeapon;
+class AWeapon;
 class UHealthComponent;
 class AMyGrenade;
 
@@ -19,7 +18,6 @@ class MYSEVENTHPROJECT_API AMyPlayer : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	AMyPlayer();
 
 	UHealthComponent* MyHealthComponent;
@@ -40,7 +38,6 @@ private:
 	FVector FindLastPosition(float Dystance);
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	void MoveHorizontal(float Value);
@@ -83,12 +80,10 @@ protected:
 	USkeletalMeshComponent* MySkeletalMesh;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Deaths")
-	bool IsDead;
+		bool IsDead;
 
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
@@ -98,10 +93,10 @@ public:
 		float right;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
-	TSubclassOf<APlayerWeapon> myWeaponPrefab;
+		TSubclassOf<AWeapon> myWeaponPrefab;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Weapon")
-	APlayerWeapon* CurrentWeapon;
+		AWeapon* CurrentWeapon;
 
 	void AddHealth(int amount);
 
@@ -116,20 +111,15 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "IK")
 		FTransform GetLeftHandIKTransform();
 
-//	[Header]
-
-	UFUNCTION(BlueprintImplementableEvent)
-		void JumpEvent();
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Jumping")
-	bool IsJumping;
+		bool IsJumping;
 
 
 	UFUNCTION(BlueprintCallable, Category = "Death")
 		void MyDeath();
 
 	UFUNCTION(BlueprintCallable, Category = "Death")
-	void OnHit(int CurrentHealth, APawn* FromPawn);
+		void OnHit(int CurrentHealth, APawn* FromPawn);
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
 		float CurrentHealth();

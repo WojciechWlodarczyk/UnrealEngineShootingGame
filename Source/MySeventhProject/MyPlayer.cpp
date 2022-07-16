@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "MyPlayer.h"
 #include "Camera/CameraComponent.h"
@@ -7,13 +5,12 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "PlayerWeapon.h"
+#include "Weapon.h"
 #include "DrawDebugHelpers.h"
 #include "Components/SceneComponent.h"
 #include "HealthComponent.h"
 #include "MyGrenade.h"
 
-// Sets default values
 AMyPlayer::AMyPlayer()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -33,7 +30,6 @@ AMyPlayer::AMyPlayer()
 	PlayerPositions.Init(FVector(0), 0);
 }
 
-// Called when the game starts or when spawned
 void AMyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
@@ -43,7 +39,7 @@ void AMyPlayer::BeginPlay()
 
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-	CurrentWeapon = GetWorld()->SpawnActor<APlayerWeapon>(myWeaponPrefab, MySkeletalMesh->GetSocketLocation("spine_01Socket"), GetActorRightVector().Rotation(), SpawnParams);
+	CurrentWeapon = GetWorld()->SpawnActor<AWeapon>(myWeaponPrefab, MySkeletalMesh->GetSocketLocation("spine_01Socket"), GetActorRightVector().Rotation(), SpawnParams);
 	SocketStartPos = GetTransform().InverseTransformPosition(MySkeletalMesh->GetSocketLocation("UpperArm_RSocket"));
 
 	CurrentWeapon->SetActorRelativeScale3D(FVector(0.07f));
@@ -61,11 +57,10 @@ void AMyPlayer::BeginPlay()
 	GetWorldTimerManager().SetTimer(SavingPositionTimer, this, &AMyPlayer::SavePosition, 2.f, true, 0.f);
 
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
-	PlayerController->PlayerCameraManager->ViewPitchMin = -52.0; // Use whatever values you want
+	PlayerController->PlayerCameraManager->ViewPitchMin = -52.0;
 	PlayerController->PlayerCameraManager->ViewPitchMax = 45;
 }
 
-// Called every frame
 void AMyPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -79,10 +74,10 @@ void AMyPlayer::Tick(float DeltaTime)
 	float FinalPitch = 0;
 	float ControlerPitch = GetController()->GetControlRotation().Pitch;
 	if (ControlerPitch < 180) {
-		FinalPitch = ControlerPitch;//0.6666f;
+		FinalPitch = ControlerPitch;
  }
 	else {
-		FinalPitch = -(360 - ControlerPitch);//0.6666f;
+		FinalPitch = -(360 - ControlerPitch);
 	}
 	
 
@@ -105,7 +100,6 @@ void AMyPlayer::Tick(float DeltaTime)
 	CameraComp->SetRelativeLocation(FVector(12.397949f, CurrentYRelCam, 8));
 }
 
-// Called to bind functionality to input
 void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -124,7 +118,6 @@ void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMyPlayer::Fire);
 
-
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyPlayer::StartJumping);
 
 	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AMyPlayer::ThrowGrenade);
@@ -135,7 +128,6 @@ void AMyPlayer::MoveHorizontal(float Value)
 {
 	if (IsDead)
 		return;
-
 
 	float TagerSpped = run ? 100 : 50;
 
@@ -173,10 +165,12 @@ void AMyPlayer::MoveVertical(float Value)
 
 	AddMovementInput(GetActorForwardVector() * forward / 200);
 }
+
 FVector AMyPlayer::GetLeftHandLoactionFromMesh()
 {
 	return MySkeletalMesh->GetSocketLocation("hand_rSocket");
 }
+
 FTransform AMyPlayer::GetRightHandIKTransform() {
 
 	FRotator NewRotator = FRotator(0);
@@ -190,6 +184,7 @@ FTransform AMyPlayer::GetRightHandIKTransform() {
 
 	return FTransform(NewRotator, NewVector);
 }
+
 FTransform AMyPlayer::GetLeftHandIKTransform() {
 
 	FRotator NewRotator = FRotator(0);
@@ -203,6 +198,7 @@ FTransform AMyPlayer::GetLeftHandIKTransform() {
 
 	return FTransform(NewRotator, NewVector);
 }
+
 void AMyPlayer::StartRun() {
 	run = true;
 }
@@ -210,6 +206,7 @@ void AMyPlayer::StartRun() {
 void AMyPlayer::StopRun() {
 	run = false;
 }
+
 void AMyPlayer::StartZoom() {
 	IsZooming = true;
 }
@@ -222,10 +219,8 @@ void AMyPlayer::Fire() {
 	FCollisionQueryParams QueryParams;
 	QueryParams.AddIgnoredActor(this);
 	QueryParams.bTraceComplex = true;
-//	QueryParams.bReturnPhysicalMaterial = true;
 
 	FHitResult Hit;
-
 	FVector StartVector = CameraComp->GetComponentLocation();
 	FVector EndVector = StartVector + CameraComp->GetForwardVector() * 10000;
 
@@ -246,7 +241,6 @@ void AMyPlayer::MyDeath() {
 	GetController()->SetIgnoreLookInput(true);
 	UE_LOG(LogTemp, Warning, TEXT("Player is dead!"));
 
-
 	FTimerDelegate TimerDelegate;
 	TimerDelegate.BindLambda([&]
 		{
@@ -256,9 +250,11 @@ void AMyPlayer::MyDeath() {
 	FTimerHandle TimerHandle;
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDelegate, 5, false);
 }
+
 void AMyPlayer::OnHit(int CurrentHealth, APawn* FromPawn) {
 	UE_LOG(LogTemp, Warning, TEXT("Player currentHealth: %d"), CurrentHealth);
 }
+
 float AMyPlayer::CurrentHealth() {
 	if (MyHealthComponent) {
 		return MyHealthComponent->CurrentHealthPercent();
@@ -266,14 +262,15 @@ float AMyPlayer::CurrentHealth() {
 	else
 		return 1;
 }
+
 void AMyPlayer::CameraSwitch() {
 	if (CameraYTarget > 0) {
 		CameraYTarget = -25;
 	}else{
 		CameraYTarget = 25;
 	}
-
 }
+
 void AMyPlayer::ThrowGrenade() {
 	FVector SpawnPos = MySkeletalMesh->GetSocketLocation("spine_03Socket");
 	FActorSpawnParameters Params = FActorSpawnParameters();
@@ -290,9 +287,11 @@ void AMyPlayer::ThrowGrenade() {
 	}
 	NewGrenade->MyStaticMesh->AddForce(CameraComp->GetForwardVector() * 200000 + CameraComp->GetUpVector() * 50000);
 }
+
 void AMyPlayer::AddHealth(int amount) {
 	MyHealthComponent->AddHealth(amount);
 }
+
 void AMyPlayer::Respawn() {
 	IsDead = false;
 	GetController()->SetIgnoreLookInput(false);
@@ -300,6 +299,7 @@ void AMyPlayer::Respawn() {
 
 	SetActorLocation(FindLastPosition(3000));
 }
+
 void AMyPlayer::SavePosition() {
 	FVector currentLocation = GetActorLocation();
 	if (PlayerPositions.Num() == 0) {
@@ -314,6 +314,7 @@ void AMyPlayer::SavePosition() {
 			PlayerPositions.RemoveAt(0);
 	}
 }
+
 FVector AMyPlayer::FindLastPosition(float Dystance) {
 	FVector currentLocation = GetActorLocation();
 	for (int i = PlayerPositions.Num() - 1; i >= 0; i--)

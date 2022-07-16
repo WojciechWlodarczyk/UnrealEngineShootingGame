@@ -169,10 +169,8 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
-		{ "Comment", "//DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams(FOnHealthChangedSignature, USHealthComponent*, HealthComp, float, Health, float, HealthDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);\n" },
 		{ "IncludePath", "HealthComponent.h" },
 		{ "ModuleRelativePath", "HealthComponent.h" },
-		{ "ToolTip", "DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams(FOnHealthChangedSignature, USHealthComponent*, HealthComp, float, Health, float, HealthDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);" },
 	};
 #endif
 #if WITH_METADATA
@@ -235,9 +233,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		{ ECombatSide_StaticEnum, TEXT("ECombatSide"), &Z_Registration_Info_UEnum_ECombatSide, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1642291112U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UHealthComponent, UHealthComponent::StaticClass, TEXT("UHealthComponent"), &Z_Registration_Info_UClass_UHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHealthComponent), 3753717857U) },
+		{ Z_Construct_UClass_UHealthComponent, UHealthComponent::StaticClass, TEXT("UHealthComponent"), &Z_Registration_Info_UClass_UHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHealthComponent), 4286868502U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_2983454665(TEXT("/Script/MySeventhProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_3989856438(TEXT("/Script/MySeventhProject"),
 		Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_Statics::EnumInfo));

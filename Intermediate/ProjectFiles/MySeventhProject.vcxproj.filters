@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\MySeventhProject.uproject" />
     <Filter Include="Source">
@@ -11,7 +11,10 @@
     <None Include="..\..\Source\MySeventhProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\BlackAlder.png" />
+    <None Include="..\..\README.md" />
     <None Include="..\..\Scanned3DPeoplePack.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -28,6 +31,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\MySeventhProject">
       <UniqueIdentifier>{493F4478-E84C-381B-8570-00CBAFFB7E24}</UniqueIdentifier>
     </Filter>
@@ -35,24 +44,6 @@
       <Filter>Source\MySeventhProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MySeventhProject\AIBehaviour.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\AIEnemySoldier.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\AIEnemySoldier.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\Crow.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\Crow.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\CrowSpawner.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\CrowSpawner.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\MySeventhProject\EnemyManager.cpp">
@@ -85,6 +76,12 @@
     <ClInclude Include="..\..\Source\MySeventhProject\IdleBehaviour.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MySeventhProject\LaserProjectile.cpp">
+      <Filter>Source\MySeventhProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MySeventhProject\LaserProjectile.h">
+      <Filter>Source\MySeventhProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MySeventhProject\MainGameInstance.cpp">
       <Filter>Source\MySeventhProject</Filter>
     </ClCompile>
@@ -97,22 +94,10 @@
     <ClInclude Include="..\..\Source\MySeventhProject\MedicalKit.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\MyAIActorSoldier.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\MyAIActorSoldier.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\MySeventhProject\MyAIEnemyCharacter.cpp">
       <Filter>Source\MySeventhProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MySeventhProject\MyAIEnemyCharacter.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\MyAIPawn.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\MyAIPawn.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\MySeventhProject\MyGrenade.cpp">
@@ -154,16 +139,16 @@
     <ClInclude Include="..\..\Source\MySeventhProject\PlayerWeapon.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MySeventhProject\SpawnRocks.cpp">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MySeventhProject\SpawnRocks.h">
-      <Filter>Source\MySeventhProject</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\MySeventhProject\ThisGameInstance.cpp">
       <Filter>Source\MySeventhProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MySeventhProject\ThisGameInstance.h">
+      <Filter>Source\MySeventhProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MySeventhProject\Weapon.cpp">
+      <Filter>Source\MySeventhProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MySeventhProject\Weapon.h">
       <Filter>Source\MySeventhProject</Filter>
     </ClInclude>
   </ItemGroup>

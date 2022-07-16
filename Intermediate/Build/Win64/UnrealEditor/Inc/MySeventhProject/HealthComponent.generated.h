@@ -14,14 +14,14 @@ class APawn;
 #endif
 #define MYSEVENTHPROJECT_HealthComponent_generated_h
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_9_DELEGATE \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_8_DELEGATE \
 static inline void FDeathDelegate_DelegateWrapper(const FMulticastScriptDelegate& DeathDelegate) \
 { \
 	DeathDelegate.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_11_DELEGATE \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_10_DELEGATE \
 struct _Script_MySeventhProject_eventHitDelegate_Parms \
 { \
 	int32 CurrentHealth; \
@@ -36,10 +36,10 @@ static inline void FHitDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 }
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_SPARSE_DATA
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_RPC_WRAPPERS
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_SPARSE_DATA
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_RPC_WRAPPERS
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -48,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_INCLASS \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -57,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_STANDARD_CONSTRUCTORS \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHealthComponent) \
@@ -70,7 +70,7 @@ private: \
 public:
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHealthComponent(UHealthComponent&&); \
@@ -81,25 +81,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthComponent)
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_21_PROLOG
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_GENERATED_BODY_LEGACY \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_19_PROLOG
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_SPARSE_DATA \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_RPC_WRAPPERS \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_INCLASS \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_STANDARD_CONSTRUCTORS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_SPARSE_DATA \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_RPC_WRAPPERS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_INCLASS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_GENERATED_BODY \
+#define FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_SPARSE_DATA \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_INCLASS_NO_PURE_DECLS \
-	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_24_ENHANCED_CONSTRUCTORS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_SPARSE_DATA \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_INCLASS_NO_PURE_DECLS \
+	FID_MySeventhProject_5_0_Source_MySeventhProject_HealthComponent_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

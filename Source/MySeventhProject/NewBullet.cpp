@@ -24,7 +24,7 @@ ANewBullet::ANewBullet()
 	PlayerSide = false;
 	MyOwner = nullptr;
 
-	FBulletStruct bulstr = FBulletStruct();
+	FBulletStructX bulstr = FBulletStructX();
 
 
 	LastHitLocation = FVector::ZeroVector;

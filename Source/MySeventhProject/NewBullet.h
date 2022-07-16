@@ -69,18 +69,13 @@ public:
 	*/
 };
 
-USTRUCT()//(BlueprintType)
-struct FBulletStruct
+USTRUCT()
+struct FBulletStructX
 {
 	GENERATED_BODY()
 
 	AActor* MyDetectedActor;
 
 	FVector LastHitLocation;
-
-
-	/*FORCEINLINE class UHealthComponent* GetHealthComponentFromActor() const {
-		return MyDetectedActor->FindComponentByClass<UHealthComponent>();
-	}*/
 
 };

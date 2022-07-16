@@ -84,11 +84,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYSEVENTHPROJECT_API UClass* StaticClass<class ANewBullet>();
 
 #define FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h_75_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FBulletStruct_Statics; \
+	friend struct Z_Construct_UScriptStruct_FBulletStructX_Statics; \
 	MYSEVENTHPROJECT_API static class UScriptStruct* StaticStruct();
 
 
-template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<struct FBulletStruct>();
+template<> MYSEVENTHPROJECT_API UScriptStruct* StaticStruct<struct FBulletStructX>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_MySeventhProject_5_0_Source_MySeventhProject_NewBullet_h

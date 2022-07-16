@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	MYSEVENTHPROJECT_API UClass* Z_Construct_UClass_AMyGrenade_NoRegister();
-	MYSEVENTHPROJECT_API UClass* Z_Construct_UClass_APlayerWeapon_NoRegister();
+	MYSEVENTHPROJECT_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AMyPlayer::execCurrentHealth)
 	{
@@ -65,11 +65,6 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 		P_NATIVE_BEGIN;
 		*(FVector*)Z_Param__Result=P_THIS->GetLeftHandLoactionFromMesh();
 		P_NATIVE_END;
-	}
-	static FName NAME_AMyPlayer_JumpEvent = FName(TEXT("JumpEvent"));
-	void AMyPlayer::JumpEvent()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_AMyPlayer_JumpEvent),NULL);
 	}
 	void AMyPlayer::StaticRegisterNativesAMyPlayer()
 	{
@@ -216,30 +211,6 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//\x09[Header]\n" },
-		{ "ModuleRelativePath", "MyPlayer.h" },
-		{ "ToolTip", "[Header]" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyPlayer, nullptr, "JumpEvent", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMyPlayer_JumpEvent()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMyPlayer_JumpEvent_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_AMyPlayer_MyDeath_Statics
 	{
 #if WITH_METADATA
@@ -363,7 +334,6 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 		{ &Z_Construct_UFunction_AMyPlayer_GetLeftHandIKTransform, "GetLeftHandIKTransform" }, // 1016654399
 		{ &Z_Construct_UFunction_AMyPlayer_GetLeftHandLoactionFromMesh, "GetLeftHandLoactionFromMesh" }, // 3959931908
 		{ &Z_Construct_UFunction_AMyPlayer_GetRightHandIKTransform, "GetRightHandIKTransform" }, // 3447997785
-		{ &Z_Construct_UFunction_AMyPlayer_JumpEvent, "JumpEvent" }, // 2863418228
 		{ &Z_Construct_UFunction_AMyPlayer_MyDeath, "MyDeath" }, // 9385340
 		{ &Z_Construct_UFunction_AMyPlayer_OnHit, "OnHit" }, // 844550775
 	};
@@ -428,14 +398,14 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 		{ "ModuleRelativePath", "MyPlayer.h" },
 	};
 #endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab = { "myWeaponPrefab", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayer, myWeaponPrefab), Z_Construct_UClass_APlayerWeapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab_MetaData)) };
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab = { "myWeaponPrefab", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayer, myWeaponPrefab), Z_Construct_UClass_AWeapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayer_Statics::NewProp_myWeaponPrefab_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "ModuleRelativePath", "MyPlayer.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon = { "CurrentWeapon", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayer, CurrentWeapon), Z_Construct_UClass_APlayerWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon = { "CurrentWeapon", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayer, CurrentWeapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayer_Statics::NewProp_CurrentWeapon_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayer_Statics::NewProp_IsJumping_MetaData[] = {
 		{ "Category", "Jumping" },
@@ -494,9 +464,9 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_MyPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 3927079692U) },
+		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 75051118U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_MyPlayer_h_2457041(TEXT("/Script/MySeventhProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_MyPlayer_h_4141916589(TEXT("/Script/MySeventhProject"),
 		Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_MyPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MySeventhProject_5_0_Source_MySeventhProject_MyPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
