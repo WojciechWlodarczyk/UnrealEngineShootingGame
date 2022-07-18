@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "IdleBehaviour.h"
+#include "IdleBehaviour_old.h"
 #include "AIController.h"
 
 /*
@@ -14,12 +14,12 @@ IdleBehaviour::IdleBehaviour(AAIController MyAIController) : AIBehaviour(MyAICon
 
 }*/
 
-void IdleBehaviour::Control(float& Forward, APawn* SeenPawn) {
+void IdleBehaviour_old::Control(float& Forward, APawn* SeenPawn) {
 	Forward = 0;
 	SeenPawn = nullptr;
 }
 
-AIBehaviourType IdleBehaviour::GetCurrentBehaviourType()
+AIBehaviourType_old IdleBehaviour_old::GetCurrentBehaviourType()
 {
-	return AIBehaviourType::Idle;
+	return AIBehaviourType_old::Idle;
 }

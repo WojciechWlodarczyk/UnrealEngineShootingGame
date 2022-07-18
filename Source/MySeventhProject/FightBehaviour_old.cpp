@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "FightBehaviour.h"
+#include "FightBehaviour_old.h"
 #include "AIController.h"
 #include <vector>
 #include "HealthComponent.h"
@@ -18,7 +18,7 @@ void FightBehaviour::EnemyDetected(APawn* SeenPawn) {
 }*/
 
 
-void FightBehaviour::Control(float& Forward, APawn* SeenPawn) {
+void FightBehaviour_old::Control(float& Forward, APawn* SeenPawn) {
 	if (SeenPawn->FindComponentByClass<UHealthComponent>()->IsDead) {
 		Forward = 0;
 		SeenPawn = nullptr;
@@ -41,7 +41,7 @@ void FightBehaviour::Control(float& Forward, APawn* SeenPawn) {
 	//SeenPawn = nullptr;
 }
 
-AIBehaviourType FightBehaviour::GetCurrentBehaviourType()
+AIBehaviourType_old FightBehaviour_old::GetCurrentBehaviourType()
 {
-	return AIBehaviourType::Fight;
+	return AIBehaviourType_old::Fight;
 }

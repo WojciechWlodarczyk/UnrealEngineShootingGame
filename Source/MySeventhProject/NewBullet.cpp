@@ -106,9 +106,9 @@ void ANewBullet::TakeDamageToDetectedActor() {
 		if (HealthComp) {
 			UE_LOG(LogTemp, Warning, TEXT("HealthComp 1"));
 
-			if (PlayerSide && HealthComp->MyCombatSide == ECombatSide::ECS_Player)
+			if (PlayerSide && HealthComp->MyCombatSide == ECombatSide::ECS_PlayerSide)
 				goto End;
-			if (!PlayerSide && HealthComp->MyCombatSide == ECombatSide::ECS_Enemy)
+			if (!PlayerSide && HealthComp->MyCombatSide == ECombatSide::ECS_EnemySide)
 				goto End;
 
 			UE_LOG(LogTemp, Warning, TEXT("HealthComp 2"));

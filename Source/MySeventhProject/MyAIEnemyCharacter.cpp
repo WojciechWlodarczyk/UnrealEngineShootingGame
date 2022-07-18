@@ -18,13 +18,13 @@
 #include "MyPlayer.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "MySeventhProject.h"
-#include "AIBehaviour.h"
-#include "IdleBehaviour.h"
+#include "AIBehaviour_old.h"
+#include "IdleBehaviour_old.h"
 #include "EnemyManager.h"
-#include "FightBehaviour.h"
+#include "FightBehaviour_old.h"
 #include <typeinfo>
 #include "MainGameInstance.h"
-#include "GoToCommandStationBehaviour.h"
+#include "GoToCommandStationBehaviour_old.h"
 #include <memory>
 
 AMyAIEnemyCharacter::AMyAIEnemyCharacter()
@@ -38,7 +38,7 @@ AMyAIEnemyCharacter::AMyAIEnemyCharacter()
 	MyHealthComponent = CreateDefaultSubobject < UHealthComponent>(TEXT("HealthComp"));
 	MyHealthComponent->Death.AddDynamic(this, &AMyAIEnemyCharacter::MyDeath);
 	MyHealthComponent->HitEvent.AddDynamic(this, &AMyAIEnemyCharacter::OnHit);
-	MyHealthComponent->MyCombatSide = ECombatSide::ECS_Enemy;
+	MyHealthComponent->MyCombatSide = ECombatSide::ECS_EnemySide;
 
 	isDead = false;
 
@@ -71,7 +71,7 @@ void AMyAIEnemyCharacter::BeginPlay()
 	Cast<UMainGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()))->MainEnemyManager->GetCommandPost()
 		));*/
 
-	std::unique_ptr<GoToCommandStationBehaviour> MyCurrentBehaviour_2(new GoToCommandStationBehaviour(Cast<AAIController>(GetController()),
+	std::unique_ptr<GoToCommandStationBehaviour_old> MyCurrentBehaviour_2(new GoToCommandStationBehaviour_old(Cast<AAIController>(GetController()),
 		Cast<UMainGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()))->MainEnemyManager->GetCommandPost()
 	));
 
@@ -81,7 +81,7 @@ void AMyAIEnemyCharacter::BeginPlay()
 	UE_LOG(LogTemp, Warning, TEXT("WEWEFEFFFEE 2 BeginPlay"));
 
 	MyCurrentBehaviour.reset();
-	std::unique_ptr<IdleBehaviour> MyCurrentBehaviour_3(new IdleBehaviour(Cast<AAIController>(GetController())));
+	std::unique_ptr<IdleBehaviour_old> MyCurrentBehaviour_3(new IdleBehaviour_old(Cast<AAIController>(GetController())));
 
 	MyCurrentBehaviour = std::move(MyCurrentBehaviour_3);
 
@@ -132,13 +132,13 @@ void AMyAIEnemyCharacter::Tick(float DeltaTime)
 	CurrentWeapon->SetActorRotation(GetActorRightVector().Rotation() + FRotator(0, 0, FinalPitch));
 
 	if (PawnEnemy == nullptr) {
-		if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType::GoToAblicStation && MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType::Idle) {
+		if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType_old::GoToAblicStation && MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType_old::Idle) {
 			//MyCurrentBehaviour = std::make_unique<IdleBehaviour>(IdleBehaviour(Cast<AAIController>(GetController())));
 
 
 
 
-			std::unique_ptr<IdleBehaviour> MyCurrentBehaviour_2(new IdleBehaviour(Cast<AAIController>(GetController())));
+			std::unique_ptr<IdleBehaviour_old> MyCurrentBehaviour_2(new IdleBehaviour_old(Cast<AAIController>(GetController())));
 
 			MyCurrentBehaviour = std::move(MyCurrentBehaviour_2);
 
@@ -165,13 +165,13 @@ void AMyAIEnemyCharacter::OnPawnSeen(APawn* SeenPawn) {
 
 	PawnEnemy = SeenPawn;
 	UE_LOG(LogTemp, Warning, TEXT("OnPawnSeen"));
-	if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType::Fight) {
+	if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType_old::Fight) {
 	//	MyCurrentBehaviour = std::make_unique<FightBehaviour>(FightBehaviour(SeenPawn, Cast<AAIController>(GetController())));
 
 
 
 
-		std::unique_ptr<FightBehaviour> MyCurrentBehaviour_2(new FightBehaviour(SeenPawn, Cast<AAIController>(GetController())));
+		std::unique_ptr<FightBehaviour_old> MyCurrentBehaviour_2(new FightBehaviour_old(SeenPawn, Cast<AAIController>(GetController())));
 
 		MyCurrentBehaviour = std::move(MyCurrentBehaviour_2);
 
@@ -248,14 +248,14 @@ void AMyAIEnemyCharacter::OnHit(int CurrentHealth, APawn* FromPawn) {
 		{
 			PawnEnemy = FromPawn;
 
-			if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType::Fight)
+			if (MyCurrentBehaviour->GetCurrentBehaviourType() != AIBehaviourType_old::Fight)
 			{
 				MyPrint("WWWWW OnHit()");
 			//	MyCurrentBehaviour = std::make_unique<FightBehaviour>(FightBehaviour(FromPawn, Cast<AAIController>(GetController())));
 
 
 
-				std::unique_ptr<FightBehaviour> MyCurrentBehaviour_2(new FightBehaviour(FromPawn, Cast<AAIController>(GetController())));
+				std::unique_ptr<FightBehaviour_old> MyCurrentBehaviour_2(new FightBehaviour_old(FromPawn, Cast<AAIController>(GetController())));
 
 				MyCurrentBehaviour = std::move(MyCurrentBehaviour_2);
 			}

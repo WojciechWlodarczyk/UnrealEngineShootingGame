@@ -1,11 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AIBehaviour.h"
+#include "AIBehaviour_old.h"
 #include "AIController.h"
 
 
-AIBehaviour::AIBehaviour()
+AIBehaviour_old::AIBehaviour_old()
 {
 }/*
 int AIBehaviour::GetCurrentBehaviourTypee()

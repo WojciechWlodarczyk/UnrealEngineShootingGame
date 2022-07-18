@@ -2,6 +2,9 @@
 #include "AISoldier.h"
 #include "HealthComponent.h"
 #include "AIAnimationManagerComponent.h"
+#include "EnemyDetectorComponent.h"
+#include "Perception/PawnSensingComponent.h"
+#include "BeingDetectableComponent.h"
 
 AAISoldier::AAISoldier()
 {
@@ -10,15 +13,22 @@ AAISoldier::AAISoldier()
 	MyHealthComponent = CreateDefaultSubobject <UHealthComponent>(TEXT("HealthComp"));
 	MyHealthComponent->Death.AddDynamic(this, &AAISoldier::Death);
 	MyHealthComponent->HitEvent.AddDynamic(this, &AAISoldier::OnHit);
-	MyHealthComponent->MyCombatSide = ECombatSide::ECS_Enemy;
 
-	MyUAIAnimationManagerComponent = CreateDefaultSubobject <UAIAnimationManagerComponent>(TEXT("AnimManagerComp"));
+	AnimationManager = CreateDefaultSubobject <UAIAnimationManagerComponent>(TEXT("AnimManagerComp"));
 
+	EnemyDetector = CreateDefaultSubobject <UEnemyDetectorComponent>(TEXT("EnemyDetector"));
+	PawnSensingComp = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensingComp"));
+	PawnSensingComp->OnSeePawn.AddDynamic(EnemyDetector, &UEnemyDetectorComponent::OnPawnSeen);
+
+	MyDetectableComponent = CreateDefaultSubobject<UBeingDetectableComponent>(TEXT("DetactableComp"));
+
+	MySide = ECombatSide::ECS_EnemySide;
 }
 
 void AAISoldier::BeginPlay()
 {
 	Super::BeginPlay();
+	MyHealthComponent->MyCombatSide = MySide;
 }
 
 void AAISoldier::Tick(float DeltaTime)
@@ -50,7 +60,7 @@ void AAISoldier::OnHit(int CurrentHealth, APawn* FromPawn) {
 	}*/
 }
 void AAISoldier::Death() {
-	MyUAIAnimationManagerComponent->SoldierIsDead();
+	AnimationManager->SoldierIsDead();
 /*	isDead = true;
 	AIController->StopMovement();
 	UCapsuleComponent* CapComp = GetCapsuleComponent();

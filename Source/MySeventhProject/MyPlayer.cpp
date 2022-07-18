@@ -10,6 +10,7 @@
 #include "Components/SceneComponent.h"
 #include "HealthComponent.h"
 #include "MyGrenade.h"
+#include "BeingDetectableComponent.h"
 
 AMyPlayer::AMyPlayer()
 {
@@ -26,7 +27,8 @@ AMyPlayer::AMyPlayer()
 	MyHealthComponent = CreateDefaultSubobject < UHealthComponent>(TEXT("HealthComp"));
 	MyHealthComponent->Death.AddDynamic(this, &AMyPlayer::MyDeath);
 	MyHealthComponent->HitEvent.AddDynamic(this, &AMyPlayer::OnHit);
-	MyHealthComponent->MyCombatSide = ECombatSide::ECS_Player;
+	MyHealthComponent->MyCombatSide = ECombatSide::ECS_PlayerSide;
+	MyDetectableComponent = CreateDefaultSubobject<UBeingDetectableComponent>(TEXT("DetactableComp"));
 	PlayerPositions.Init(FVector(0), 0);
 }
 

@@ -11,6 +11,7 @@ class USkeletalMeshComponent;
 class AWeapon;
 class UHealthComponent;
 class AMyGrenade;
+class UBeingDetectableComponent;
 
 UCLASS()
 class MYSEVENTHPROJECT_API AMyPlayer : public ACharacter
@@ -78,6 +79,8 @@ protected:
 	TSubclassOf<AMyGrenade> MyGrenade;
 
 	USkeletalMeshComponent* MySkeletalMesh;
+
+	UBeingDetectableComponent* MyDetectableComponent;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Deaths")
 		bool IsDead;

@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "AIBehaviour.h"
-#include "IdleBehaviour.h"
+#include "AIBehaviour_old.h"
+#include "IdleBehaviour_old.h"
 #include <memory>
 #include "MyAIEnemyCharacter.generated.h"
 
@@ -17,6 +17,7 @@ class UUserWidget;
 class UWidget;
 class AIBehaviour;
 class IdleBehaviour;
+
 
 UCLASS()
 class MYSEVENTHPROJECT_API AMyAIEnemyCharacter : public ACharacter
@@ -92,7 +93,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Component")
 		UPawnSensingComponent* PawnSensingComp;
 
-	std::unique_ptr<AIBehaviour> MyCurrentBehaviour;
+	std::unique_ptr<AIBehaviour_old> MyCurrentBehaviour;
 	//AIBehaviour* MyCurrentBehaviour;// = AIBehaviour();
 
 	UFUNCTION()

@@ -4,14 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "AIBehaviour.h"
+#include "AIBehaviour_old.h"
 #include <vector>
 
 /**
  * 
  */
 //UCLASS()
-class MYSEVENTHPROJECT_API FightBehaviour : public AIBehaviour
+class MYSEVENTHPROJECT_API FightBehaviour_old : public AIBehaviour_old
 {
 
 protected:
@@ -19,7 +19,7 @@ protected:
 	std::vector<APawn*> myvector;
 
 public:
-	FightBehaviour(APawn* SeenPawn, AAIController* MyAIController){
+	FightBehaviour_old(APawn* SeenPawn, AAIController* MyAIController){
 		this->MyAIController = MyAIController;
 		myvector.push_back(SeenPawn);
 	}
@@ -27,7 +27,7 @@ public:
 
 	void Control(float& Forward, APawn* SeenPawn);
 
-	AIBehaviourType GetCurrentBehaviourType();
+	AIBehaviourType_old GetCurrentBehaviourType();
 //	~FightBehaviour();
 
 

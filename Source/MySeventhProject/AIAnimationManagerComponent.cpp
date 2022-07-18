@@ -7,16 +7,16 @@
 UAIAnimationManagerComponent::UAIAnimationManagerComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
-	
-//	MyMainManager = GetOwner<AAISoldier>();
-//	MySkeletalMesh = MyMainManager->GetMesh();
 
-//s	bDead = false;
+	bDead = false;
 }
 
 void UAIAnimationManagerComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
+	MyMainManager = GetOwner<AAISoldier>();
+	MySkeletalMesh = MyMainManager->GetMesh();
 
 	SpawnWeapon();
 

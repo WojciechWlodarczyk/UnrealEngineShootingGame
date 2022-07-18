@@ -4,27 +4,27 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "AIBehaviour.h"
+#include "AIBehaviour_old.h"
 
 /**
  * 
  */
-class MYSEVENTHPROJECT_API IdleBehaviour : public AIBehaviour
+class MYSEVENTHPROJECT_API IdleBehaviour_old : public AIBehaviour_old
 {
 public:
 //	int liczba = 6;
 
-	IdleBehaviour(AAIController* MyAIController) {
+	IdleBehaviour_old(AAIController* MyAIController) {
 		this->MyAIController = MyAIController;
 	}
 
-	~IdleBehaviour() {
+	~IdleBehaviour_old() {
 		UE_LOG(LogTemp, Warning, TEXT("WEWEFEFFFEE Destruktor IdleBehaviour"));
 	}
 
 	void Control(float& Forward, APawn* SeenPawn);
 
-	AIBehaviourType GetCurrentBehaviourType();
+	AIBehaviourType_old GetCurrentBehaviourType();
 
 //	void EnemyDetected(APawn* SeenPawn);
 };

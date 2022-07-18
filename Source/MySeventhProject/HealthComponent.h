@@ -11,8 +11,8 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FHitDelegate, int, CurrentHealth, A
 
 UENUM(BlueprintType)
 enum class ECombatSide : uint8 {
-	ECS_Player       UMETA(DisplayName = "Player"),
-	ECS_Enemy        UMETA(DisplayName = "Enemy"),
+	ECS_PlayerSide       UMETA(DisplayName = "Player"),
+	ECS_EnemySide        UMETA(DisplayName = "Enemy"),
 	ECS_Other        UMETA(DisplayName = "Other"),
 };
 

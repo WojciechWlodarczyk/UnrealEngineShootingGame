@@ -1,13 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "GoToCommandStationBehaviour.h"
+#include "GoToCommandStationBehaviour_old.h"
 #include "AIController.h"
-#include "AIBehaviour.h"
+#include "AIBehaviour_old.h"
 #include "Engine/World.h"
 //#include <string>
 
-void GoToCommandStationBehaviour::Control(float& Forward, APawn* SeenPawn) {
+void GoToCommandStationBehaviour_old::Control(float& Forward, APawn* SeenPawn) {
 	
 //	std::string rr = "OnPawnSeen" + (bool)(TargetCommandPost == nullptr);
 //	char tabChar[55];
@@ -34,7 +34,7 @@ void GoToCommandStationBehaviour::Control(float& Forward, APawn* SeenPawn) {
 	SeenPawn = nullptr;
 }
 
-AIBehaviourType GoToCommandStationBehaviour::GetCurrentBehaviourType()
+AIBehaviourType_old GoToCommandStationBehaviour_old::GetCurrentBehaviourType()
 {
-	return AIBehaviourType::GoToAblicStation;
+	return AIBehaviourType_old::GoToAblicStation;
 }
