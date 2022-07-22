@@ -6,7 +6,6 @@
 #include "EnemyDetectorComponent.generated.h"
 
 class AAISoldier;
-class IDetectableUnit;
 class UBeingDetectableComponent;
 
 enum class ECombatSide : uint8;
@@ -22,13 +21,18 @@ public:
 	UFUNCTION()
 		void OnPawnSeen(APawn* SeenPawn);
 
+	UFUNCTION()
+		void OnHit(int CurrentHealth, APawn* FromPawn);
+
+	bool ShouldAttackEnemy(UBeingDetectableComponent* Enemy);
+
+	UBeingDetectableComponent* FindTheClosestEnemy();
+
 protected:
 	virtual void BeginPlay() override;
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-
 
 private:
 	TArray<UBeingDetectableComponent*> EnemiesNearby;
@@ -37,5 +41,9 @@ private:
 
 	AAISoldier* MyMainManager;
 
-	UBeingDetectableComponent* FindTheClosestEnemy();
+	void NewEnemyDetected();
+
+	void DetectEnemy(APawn* Enemy);
+
+	float DistanceToEnemy(UBeingDetectableComponent* Enemy);
 };

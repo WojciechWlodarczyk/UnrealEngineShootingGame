@@ -3,7 +3,6 @@
 #include "Perception/PawnSensingComponent.h"
 #include "AISoldier.h"
 #include "HealthComponent.h"
-#include "IDetectableUnit.h"
 #include "AISoldier.h"
 #include "BeingDetectableComponent.h"
 
@@ -30,20 +29,32 @@ bool UEnemyDetectorComponent::IsThisEnemy(ECombatSide side)
 	return side != MyMainManager->MySide;
 }
 
-#include "AISoldier.h"
+void UEnemyDetectorComponent::DetectEnemy(APawn* Enemy) {
+	if (Enemy == nullptr)
+		return;
+
+	UBeingDetectableComponent* DetectableSoldier = Enemy->FindComponentByClass<UBeingDetectableComponent>();
+
+	if (DetectableSoldier == nullptr)
+		return;
+
+	if (IsThisEnemy(DetectableSoldier->GetCombatSide()) == false)
+		return;
+
+	if (EnemiesNearby.Contains(DetectableSoldier))
+		return;
+
+	EnemiesNearby.Add(DetectableSoldier);
+	UE_LOG(LogTemp, Warning, TEXT("New enemy was added! %d"), EnemiesNearby.Num());
+	NewEnemyDetected();
+}
+
 void UEnemyDetectorComponent::OnPawnSeen(APawn* SeenPawn) {
-	if (SeenPawn == nullptr)
-		return;
-	
-	UBeingDetectableComponent* DetectableSoldier = SeenPawn->FindComponentByClass<UBeingDetectableComponent>();
+	DetectEnemy(SeenPawn);
+}
 
- if (DetectableSoldier == nullptr)
-		return;
-
-	if (EnemiesNearby.Contains(DetectableSoldier) == false) {
-		EnemiesNearby.Add(DetectableSoldier);
-		UE_LOG(LogTemp, Warning, TEXT("New enemy was added! %d"), EnemiesNearby.Num());
-	}
+void UEnemyDetectorComponent::OnHit(int CurrentHealth, APawn* FromPawn) {
+	DetectEnemy(FromPawn);
 }
 
 UBeingDetectableComponent* UEnemyDetectorComponent::FindTheClosestEnemy()
@@ -53,7 +64,7 @@ UBeingDetectableComponent* UEnemyDetectorComponent::FindTheClosestEnemy()
 
 	for (int i = 0; i < EnemiesNearby.Num(); i++)
 	{
-		float CurrentDistance = FVector::Distance(MyMainManager->GetActorLocation(), EnemiesNearby[i]->GetLocation());
+		float CurrentDistance = DistanceToEnemy(EnemiesNearby[i]);
 
 		if (EnemiesNearby[i]->IsDead() || CurrentDistance > 3000) {
 			EnemiesNearby.RemoveAt(i);
@@ -70,4 +81,14 @@ UBeingDetectableComponent* UEnemyDetectorComponent::FindTheClosestEnemy()
 		return EnemiesNearby[ClosestEnemyID];
 
 	return nullptr;
+}
+
+void UEnemyDetectorComponent::NewEnemyDetected()
+{
+	MyMainManager->RequestBehaviour(AIBehaviourType::ABT_AttackEnemy);
+}
+
+float UEnemyDetectorComponent::DistanceToEnemy(UBeingDetectableComponent* Enemy)
+{
+	return FVector::Distance(MyMainManager->GetActorLocation(), Enemy->GetLocation());
 }
